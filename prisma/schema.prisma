@@ -14,7 +14,7 @@ datasource db {
 }
 
 model book {
- id Int @id @default(autoincrement())
- title String
- description Strin?
+  id          Int     @id @default(autoincrement())
+  title       String
+  description String?
 }
